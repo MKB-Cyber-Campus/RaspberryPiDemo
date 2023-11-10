@@ -46,14 +46,14 @@ green = PWMLED(22)
 
 # while True:
 for i in range(10):
-    red.on()
-    time.sleep(1)
+    red.pulse()
+    time.sleep(3)
     red.off()
-    yellow.on()
-    time.sleep(1)
+    yellow.pulse()
+    time.sleep(3)
     yellow.off()
-    green.on()
-    time.sleep(1)
+    green.pulse()
+    time.sleep(3)
     green.off()
 
 
